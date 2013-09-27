@@ -1,0 +1,229 @@
+	/*默认主题*/
+	.calendar-box{
+		position: absolute;
+		/*border: #ddd 1px solid;*/
+	}
+	.calendar-box h2{
+		background: #5bb52e;
+		border: #3e871d 1px solid;
+		position: relative;
+
+		background-image: -moz-linear-gradient(top, #5bb52e, #469523);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bb52e), to(#469523));
+		background-image: -webkit-linear-gradient(top, #5bb52e, #469523);
+		background-image: -o-linear-gradient(top, #5bb52e, #469523);
+		background-image: linear-gradient(to bottom, #5bb52e, #469523);
+		background-repeat: repeat-x;
+	}
+	.calendar-box .prev-btn,
+	.calendar-box .next-btn{
+		position: absolute;
+		top: 6px;
+		width: 20px;
+		height: 20px;
+		background: #fdfdfd;
+		border-radius: 10px;
+		font-size: 12px;
+		text-align: center;
+		color: #285c10;
+		line-height: 20px;
+		font-weight: bold;
+		border: #3e871d 1px solid;
+		font-family: sans-serif;
+
+		background-image: -moz-linear-gradient(top, #fff, #eee);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#eee));
+		background-image: -webkit-linear-gradient(top, #fff, #eee);
+		background-image: -o-linear-gradient(top, #fff, #eee);
+		background-image: linear-gradient(to bottom, #fff, #eee);
+		background-repeat: repeat-x;
+	}
+	.calendar-box .prev-btn{
+		left: 6px;
+	}
+	.calendar-box .next-btn{
+		right: 6px;
+	}
+	.calendar-box h2 a:hover{
+		background: #3e871d;
+		border: #307014 1px solid;
+		color: #fff;
+	}
+	.calendar-box h2 p{
+		display: block;
+		border-top: #93d062 1px solid;
+		font-size: 14px;
+		padding: 6px;
+		text-align: center;
+		color: #fff;
+	}
+	.calendar-box table{
+		border-collapse: collapse;
+	}
+	.calendar-box th{
+		width: 28px;
+		padding: 5px;
+		background: #469523;
+		color: #555;
+		font-size: 12px;
+		text-align: center;
+		border: #3e871d 1px solid;
+		border-top: none;
+		cursor: default;
+		color: #ebf9e5;
+	}
+	.calendar-box td{
+		padding: 8px 0;
+		text-align: center;
+		font-size: 12px;
+		border: #eaeaea 1px solid;
+		color: #333;
+		cursor: pointer;
+		background: #fff;
+		/*border-top: none;*/
+	}
+	.calendar-box td.past{
+		color: #adadad;
+	}
+	.calendar-box td.nextMonth,
+	.calendar-box td.prevMonth{
+		background: #f9f9f9;
+		color: #dfdfdf;
+	}
+	.calendar-box td.hover{
+		background: #eaeaea;
+		color: #000;
+		font-weight: bold;
+	}
+	.calendar-box td.today{
+		color: green;
+		font-weight: bold
+	}
+	/*黑色主题*/
+	.cal-the-blue{
+		background: #25a9d9;
+		padding: 5px 10px 10px 10px;
+		border-radius: 5px;
+		background-image: -moz-linear-gradient(top, #25a9d9, #1b9ac8);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1b9ac8), to(#1b9ac8));
+		background-image: -webkit-linear-gradient(top, #25a9d9, #1b9ac8);
+		background-image: -o-linear-gradient(top, #25a9d9, #1b9ac8);
+		background-image: linear-gradient(to bottom, #25a9d9, #1b9ac8);
+		background-repeat: repeat-x;		
+	}
+	.cal-the-blue h2{
+		background: none;
+		border: none;
+	}
+	.cal-the-blue th{
+		background: none;
+		border: none;
+	}
+	.cal-the-blue td{
+		background: none;
+		border: none;
+		color: #fff;
+	}
+	.cal-the-blue td.past{
+		color: #8fd2eb;
+	}
+	.cal-the-blue td.nextMonth,
+	.cal-the-blue td.prevMonth{
+		background: none;
+		color: #44b5de;
+	}
+	.cal-the-blue td.today{
+		color: #0a4b62;
+		font-weight: bold
+	}
+	.cal-the-blue td.hover{
+		background: #0b5d7b;
+		color: #fff;
+		border-radius: 5px;
+	}
+
+	.cal-the-blue .prev-btn,
+	.cal-the-blue .next-btn{
+		background: none;
+		font-size: 14px;
+		border: none;
+		color: #fff;
+
+	}
+	.cal-the-blue h2 a:hover{
+		background: none;
+		border: none;
+		color: #085875;
+	}
+	.cal-the-blue h2 p{
+		border: none;
+		border-bottom: #1a94c0 1px solid
+	}
+	.cal-the-blue h2 p span{
+		text-shadow: 0 1px 1px #196986;
+	}
+	.cal-the-blue th{
+		border-top: #37b6e4 1px solid;
+	}
+	/*黑色主题*/
+	.cal-the-red{
+		/*padding: 5px 10px 10px 10px;*/
+		background: #de5b4c;
+		border-radius: 5px;
+		background-image: -moz-linear-gradient(top, #de5b4c, #c83f2e);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#c83f2e), to(#c83f2e));
+		background-image: -webkit-linear-gradient(top, #de5b4c, #c83f2e);
+		background-image: -o-linear-gradient(top, #de5b4c, #c83f2e);
+		background-image: linear-gradient(to bottom, #de5b4c, #c83f2e);
+		background-repeat: repeat-x;		
+	}
+	.cal-the-red h2{
+		background: none;
+		border: none;
+	}
+	.cal-the-red th{
+		background: #a72a1c;
+		border: none;
+	}
+	.cal-the-red td{
+		background: none;
+		border: none;
+		color: #fff;
+	}
+	.cal-the-red td.past{
+		color: #a62b1c
+	}
+	.cal-the-red td.nextMonth,
+	.cal-the-red td.prevMonth{
+		background: none;
+		color: #b03223;
+	}
+	.cal-the-red td.today{
+		color: #751a10;
+		font-weight: bold
+	}
+	.cal-the-red td.hover{
+		background: #982214;
+		color: #fff;
+		border-radius: 5px;
+	}
+
+	.cal-the-red .prev-btn,
+	.cal-the-red .next-btn{
+		background: none;
+		font-size: 14px;
+		border: none;
+		color: #fff;
+
+	}
+	.cal-the-red h2 a:hover{
+		background: none;
+		border: none;
+		color: #641107;
+	}
+	.cal-the-red h2 p{
+		border: none;
+	}
+	.cal-the-red h2 p span{
+		text-shadow: 0 1px 1px #89190b;
+	}
