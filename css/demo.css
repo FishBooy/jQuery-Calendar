@@ -1,60 +1,20 @@
 
 /*样式重置*/
 *{ margin: 0;padding: 0;}
-body{font-family: '微软雅黑';}
+body{font-family: '微软雅黑';background: #fbfbfb;}
 a{ text-decoration: none;}
 
 
 /*-----*/
-.container{
-	width: 200px;
-	padding: 0 0 10px 0;
-	margin: 100px auto;
-	background: #fbfbfb;
-	border: #e4e4e4 1px solid;
-	border-radius:5px;
-}
-.container h2{
-	font-size: 18px;
-	text-align: center;
-	padding: 5px 0;
-	border-bottom: #e4e4e4 1px solid;
-}
-.container p{
-	padding: 10px 12px;
-	font-size: 14px;
-	background: #fefefe;
-	border-bottom: #eaeaea 1px solid;
-}
-.container p.select{
-	overflow: hidden;
-	zoom: 1;
-}
-.container p a{
-	width: 100px;
-	text-align: center;
-	display: block;
-	float: right;
-	background: #25a9d9;
-	color: #fff;
-	font-size: 12px;
-	padding: 5px;
-	cursor: pointer;
-}
-.container p a:hover{
-	background: #148cb8;
-}
-.container p a.green{
-	float: left;
-	background: #5bb52e;
-}
-.container p a.green:hover{
-	background: #469b1b;
-}
-.container p input{
-	width: 120px;
-	height: 16px;
-	padding: 5px;
-	font-size: 14px;
-	border: #ddd 1px solid;
-}
+#container{ border-collapse: collapse;margin: 200px auto;border: #d0d0d0 1px solid;background: #fff;}
+#container th{ background: #e2e2e2;border-bottom: #d0d0d0 1px solid;}
+#container h2{ border-top: #f5f5f5 1px solid;font-size: 18px;padding:5px 0;color: #666;}
+
+#container td a{display: block;font-size: 14px;color: #fff;padding-left: 2px;}
+#container a.green{ background:#5BB52E; }#container a.green:hover{ background: #469523}
+#container a.blue{ background:#25A9D9; }#container a.blue:hover{ background: #1B9AC8}
+#container a.red{ background:#DE5B4C; }#container a.red:hover{ background: #C83F2E}
+
+#container td{ padding: 5px;}
+#container tr.btns td{ padding-bottom: 0}
+#container td input{ display: block;height: 16px;padding: 2px;border:#ddd 1px solid;}

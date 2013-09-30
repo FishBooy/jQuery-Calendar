@@ -2,21 +2,37 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>calendar</title>
+<title>jQuery-Calendar-1.0.0</title>
 <link rel="stylesheet" href="css/demo.css" type="text/css" />
 <link rel="stylesheet" href="css/calendar.css" type="text/css" />
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="js/calendar.js"></script>
+<script type="text/javascript" src="js/calendar-1.0.0.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.default').calendar();
+		$('.blue').calendar({theme:'blue'});
+		$('.red').calendar({theme:'red'});	
+	});
+</script>
 </head>
 
 <body>
-	<div class="container">
-		<h2>选择日期</h2>
-		<p>开始 : <input type="text" name="start" class="btn"/></p>
-		<p>结束 : <input type="text" name="end" class="btn"/></p>
-	</div>
-	<script type="text/javascript">
-		$('.btn').calendar();
-	</script>
+
+	<table id="container">
+		<tr class="title">
+			<th colspan="3"><h2>JQuery-Calendar-1.0.0</h2></th>
+		</tr>
+		<tr class="btns">
+			<td><a href="" class="green">GREEN</a></td>
+			<td><a href="" class="blue">BlUE</a></td>
+			<td><a href="" class="red">RED</a></td>
+		</tr>
+		<tr>
+			<td><input type="text" name="start" class="default"/></td>
+			<td><input type="text" name="end" class="blue"/></td>
+			<td><input type="text" name="end" class="red"/></td>
+		</tr>
+	</table>
+
 </body>
 </html>

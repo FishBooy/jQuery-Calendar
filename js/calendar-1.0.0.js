@@ -23,7 +23,8 @@
 	//默认参数
 	Calendar.prototype.defaultOpts = {
 		theme: 'green',
-		language: 'en'
+		language: 'en',
+		addH: 10
 	};
 
 	//用到的静态数据
@@ -130,11 +131,11 @@
 		this.calendar = $('<div>' + this.createTitleHtml() + table + '</div>')
 			.css({
 				left: offset.left,
-				top: offset.top + outerHeight + 2
+				top: offset.top + outerHeight + this.opts.addH
 			})
 			.appendTo($('body'))
 			.addClass('calendar-box ' + className)
-			.attr('id', 'calendar-' + this.index);
+			.attr('id', 'calendar-' + this.opts.theme + '-'+ this.index);
 	};
 
 	//单元格事件绑定
