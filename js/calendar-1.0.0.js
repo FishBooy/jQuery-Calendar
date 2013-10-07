@@ -144,7 +144,7 @@
 			selector = 'td:not(.prevMonth):not(.nextMonth):not(.past)';
 
 		this.calendar
-			.on('click', 'td', function(e) {
+			.on('click', 'td,h2,th', function(e) {
 				e.stopPropagation()
 			})
 			.on('mouseover', selector, function() {
@@ -200,7 +200,7 @@
 		})
 	};
 
-	//日历重置为当前月份
+	//日历重置刷新
 	Calendar.prototype.reSet = function(month, year, toNow) {
 
 		var date = new Date();
