@@ -1,3 +1,4 @@
+//jQuery plugin:Calendar
 ;(function($){
 
 	/*---------构造器------------*/
