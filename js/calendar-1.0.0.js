@@ -1,6 +1,7 @@
 /*
 **jQuery plugin:Calendar
-**By Kevin@2016
+**Author:Kevin
+**Date:2016-03-25
 */
 ;(function($){
 
