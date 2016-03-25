@@ -1,4 +1,7 @@
-//jQuery plugin:Calendar
+/*
+**jQuery plugin:Calendar
+**By Kevin@2016
+*/
 ;(function($){
 
 	/*---------构造器------------*/
