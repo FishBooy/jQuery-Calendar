@@ -30,7 +30,7 @@
 	Calendar.prototype.defaultOpts = {
 		theme: 'green',
 		language: 'en',
-		addH: 100
+		addH: 10
 	};
 
 	//用到的静态数据
